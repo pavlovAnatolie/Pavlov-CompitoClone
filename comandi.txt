@@ -1,0 +1,30 @@
+   12  cd niceTeam
+   13  ls
+   14  code .
+   15  git log
+   16  git branch
+   17  cd Desktop
+   18  git clone https://github.com/sena-meucci/progettoStampa.git
+   19  cd progettoStampa
+   20  ls -a
+   21  code stampa.cpp
+   22  git config user.name "pavlovAnatolie"
+   23  git config user.email "pavlov.anatolie@itismeucci.com"
+   24  git status
+   25  git add .
+   26  git commit -m "inserito nome"
+   27  git log
+   28  git code .
+   29  code .
+   30  git branch BugFix
+   31  git checkout BugFix
+   32  code .
+   33  git commit -m "errore risolto in stampa"
+   34  git add .
+   35  git commit -m "errore risolto in stampa"
+   36  git log
+   37  git checkout master
+   38  git merge BugFix
+   39  git branch -d BugFix
+   40  git branch
+   41  history 30 > comandi.txt
